@@ -1,3 +1,20 @@
+/* 
+  This file is part of cy7c680-lib.
+
+  cy7c680-lib is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  cy7c680-lib is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #define SFR(addr, name) __sfr __at (addr) name
 #define SBIT(address, name) static __sbit __at (address) name
 #define SFRX(address, name) static volatile unsigned char __xdata __at(address) name
